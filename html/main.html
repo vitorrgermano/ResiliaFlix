@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>ResiliaFlix</title>
 </head>
 <body>
-
-    <h2>ResiliaFlix</h2>
-
+    <div class="container">
+        <h2 class="text-center mt-5">ResiliaFlix</h2>
+        <h3>Informações filme</h3>
+        <form id="movieForm" autocomplete="off">
+            <div class="form-group">
+                <label for="Movie">Nome do filme</label>
+                <input class="form-control" type="text" id="filme" placeholder="Nome do filme...">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-danger btn-block">
+                    Pesquisar filme
+                </button>
+            </div>
+        </form>
+        <div id="retorno">
+        </div>
+    </div> 
+    <script src="../scripts/main.js"></script>
 </body>
 </html>
