@@ -1,0 +1,49 @@
+form {
+    background-color: rgb(39, 37, 34);
+    max-width: 350px;
+    width: 70%;
+    padding: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    text-align: center;
+    color: rgb(255, 140, 0);
+    font-family: 'Anton', sans-serif;
+    border-radius: 20px;
+}
+
+form input[type=text],
+form input[type=password] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #accc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=text],
+form input[type=password] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=submit] {
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    background: rgb(255, 140, 0);
+    color: white;
+    border: 0;
+    border-radius: 15px;
+}
+
+Body {
+    background-image: url(https://th.bing.com/th/id/R.326cce10d602b1b9aa96e54fb486a072?rik=yH0vUtoEGKixgg&pid=ImgRaw);
+}
