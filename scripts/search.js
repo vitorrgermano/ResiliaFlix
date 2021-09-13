@@ -1,4 +1,8 @@
-const chaveAPI = "c2948389"
+const chaveAPI = "c2948389" //Chave API registro Vítor
+
+/*
+
+Comentário sobre modelo da página inicial.
 
 $.ajax({
     method : 'GET',
@@ -13,6 +17,7 @@ $.ajax({
         `);
     }
 })
+*/
 
 $(document).ready(()=> {
     $("#movieForm").submit((e)=>{
@@ -25,19 +30,22 @@ $(document).ready(()=> {
             url : url,
             success : (data) => {
                 console.log(data);
-                capa.style.display = "none";
                 retorno = `
                 <img id="imgRetorno" src="${data.Poster}">
-                <h4>${data.Year}</h4>
-                <h4>${data.Country}</h4>
-                <h4>${data.Genre}</h4>
-                <h4>${data.Runtime}</h4>
-                <h4>${data.imdbRating}</h4>
-                <h4>${data.imdbVotes}</h4>
-                <h4>${data.Plot}</h4>
+                <h4>Título: ${data.Title}</h4>
+                <h4>Ano do filme: ${data.Year}</h4>
+                <h4>País: ${data.Country}</h4>
+                <h4>Gênero: ${data.Genre}</h4>
+                <h4>Duração: ${data.Runtime}</h4>
+                <h4>Rating: ${data.imdbRating}</h4>
+                <h4>Quantidade de votos: ${data.imdbVotes}</h4>
+                <h4>Sinopse: ${data.Plot}</h4>
                 `;
                 $("#retorno").html(retorno);
             }
         })
     })
 })
+
+// AINDA IREI TRABALHAR NO JS PARA TRABALHAR O ERRO CASO NÃO TENHA O FILME PROCURADO!
+ 
