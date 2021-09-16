@@ -1,18 +1,4 @@
-body{
-    background-image: url("../assets/background.jpg");
-}
-.title{
-   color: yellow!important;
 
-    font-family: 'Anton', sans-serif;
-    text-shadow: 2px 2px #000000;
-    font-size: 40px;
-    text-align: center;
-}
-
-.nav-link{
-    color: white;
-}
 .card{
     width: 15rem;
     border-radius: 1rem;
@@ -36,9 +22,6 @@ body{
 
 .cb2{
     background: linear-gradient(to right bottom, rgba(225, 225, 225,0.5), rgba(0, 0, 0, 0.3))
-}
-.btn-color{
-    background-color: rgba(233, 201, 16, 0.712);
 }
 
 .btn-color:hover{
