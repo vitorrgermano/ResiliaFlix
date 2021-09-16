@@ -1,0 +1,15 @@
+.title{
+   color: yellow!important;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
+
+}
+.card{
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: 1.3rem 1.3rem 1.3rem  rgba(0, 0, 0, 0.5);
+}
+.btn-color{
+    background-color: rgba(233, 201, 16, 0.712);
+}
