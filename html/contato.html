@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
         <div class="container-fluid">
           <a class="navbar-brand title" href="#">RESILIAFLIX</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,8 @@
               </ul>
               <div class="collapse navbar-collapse d-flex justify-content-end">
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><img src="../assets/glass.png" alt=""></button>
+                    <input class="form-control me-2" id="filme" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-color" type="submit"><img src="../assets/glass.png" alt=""></button>
                   </form>
               </div>
               
@@ -43,60 +43,63 @@
         </div>
     </nav>
 </header>
-    
     <main>
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/fernandoCosta.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <h5 class="card-title">Fernando Costa</h5>
-          <a href="https://www.linkedin.com/in/fernando-costa-75b11a95/" class="btn btn-color">GitHub</a>
-          <a href="#" class="btn btn-color">Linkedin</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/joaoPaulo.jpeg" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <h5 class="card-title">João Paulo</h5>
-          <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-g-silva-b24808218/" class="btn btn-color">GitHub</a>
-          <a href="https://github.com/joaopaulo99" class="btn btn-color">Linkedin</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/joyceLusia.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <h5 class="card-title">Joyce Lusia</h5>
-          <a href="https://github.com/joycelusia" class="btn btn-color">GitHub</a>
-          <a href="#" class="btn btn-color">Linkedin</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/shayanFrozi.jpeg" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <h5 class="card-title">Shayan Frozi</h5>
-          <a href="https://github.com/SrFrozi" class="btn btn-color">GitHub</a>
-          <a href="https://www.linkedin.com/in/shayan-frozi-762b57218/" class="btn btn-color">Linkedin</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/vitorGermano.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <h5 class="card-title">Vitor Germano</h5>
-          <a href="https://github.com/vitorrgermano" class="btn btn-color">GitHub</a>
-          <a href="https://www.linkedin.com/in/vitorrgermano/" class="btn btn-color">Linkedin</a>
-        </div>
-      </div>
+    <section class="row">
+      
+      <div class="row justify-content-center">
+       
+        <article class="card m-2 cb1 p-0 m-2 col-0 col-md-5">
+          <img src="../assets/fernandoCosta.jpg" class="card-img-top img-posicao" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-4">Fernando Costa</h5>
+            <a href="https://www.linkedin.com/in/fernando-costa-75b11a95/" class="btn btn-color">GitHub</a>
+            <a href="#" class="btn btn-color">Linkedin</a>
+          </div>
+        </article>
   
-    </main>
-    
+        <div class="card  m-2 cb1 p-0 m-2 col-4 col-md-2">
+          <img src="../assets/joaoPaulo.jpeg" class="card-img-top img-posicao" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-4">João Paulo</h5>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-g-silva-b24808218/" class="btn btn-color">GitHub</a>
+            <a href="https://github.com/joaopaulo99" class="btn btn-color">Linkedin</a>
+          </div>
+        </div>
+  
+        <div class="card  m-2 cb1 p-0 m-2 col-4 col-md-2">
+          <img src="../assets/joyceLusia.jpg" class="card-img-top img-posicao" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-4">Joyce Lusia</h5>
+            <a href="https://github.com/joycelusia" class="btn btn-color">GitHub</a>
+            <a href="#" class="btn btn-color">Linkedin</a>
+          </div>
+        </div>
+  
+        <div class="card  m-2 cb1 p-0 m-2 col-4 col-md-2">
+          <img src="../assets/shayanFrozi.jpeg" class="card-img-top img-posicao" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-4">Shayan Frozi</h5>
+            <a href="https://github.com/SrFrozi" class="btn btn-color">GitHub</a>
+            <a href="https://www.linkedin.com/in/shayan-frozi-762b57218/" class="btn btn-color">Linkedin</a>
+          </div>
+        </div>
+  
+        <div class="card  m-2 cb1 p-0 m-2 col-4 col-md-2">
+          <img src="../assets/vitorGermano.jpg" class="card-img-top img-posicao" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-4">Vitor Germano</h5>
+            <a href="https://github.com/vitorrgermano" class="btn btn-color">GitHub</a>
+            <a href="https://www.linkedin.com/in/vitorrgermano/" class="btn btn-color">Linkedin</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main> 
 
-
+  <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-    <script src=""></script>
+    <script src="../scripts/search.js"></script>
 </body>
 </html>
