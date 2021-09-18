@@ -1,0 +1,43 @@
+.formLogin {
+    background-color: rgba(204, 148, 63, 0.548);
+    max-width: 350px;
+    width: 70%;
+    padding: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.h1{
+    color: rgb(#AC0019);
+    
+}
+
+.inputNome {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+    .btnEnviar{
+    /* width: 105%;
+    height: 50px; */
+    cursor: pointer;
+    background: rgb(#AC0019)!important;
+    color: rgb(22, 21, 21);
+    
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(../assets/resiliaflixcapa.jpg)}
+
+a{
+        text-decoration: none;
+        color: white;
+   }
