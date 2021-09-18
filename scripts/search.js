@@ -6,13 +6,12 @@ $(document).ready(() => {
         let filme = $("#filme").val()
         let url = `http://www.omdbapi.com/?apikey=${chaveAPI}&t=${filme}`
         let retorno = ""
-        $.ajax({
-            method: 'GET',
-            url: url,
-            success: (data) => {
-                if (data.Response == "False") {
-                    return alert(data.Error);
-                } else {
+        try {
+            $.ajax({
+                method: 'GET',
+                url: url,
+                success: (data) => {
+                    if (data.Response == "False") throw new Error(data.Error);
                     console.log(data);
                     retorno = `
                     <img id="imgRetorno" src="${data.Poster}">
@@ -27,9 +26,9 @@ $(document).ready(() => {
                     `;
                     $("#retorno").html(retorno);
                 }
-            }
-        })
+            })
+        } catch(erro){
+           console.log(erro)
+        }
     })
 })
-
-// VOU TENTAR IMPLEMENTAR TRY CATCH, PORÉM DESTA FORMA JÁ EVITAMOS O ERRO!
