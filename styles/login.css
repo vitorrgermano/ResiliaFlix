@@ -1,4 +1,4 @@
-form {
+.formLogin {
     background-color: rgba(204, 148, 63, 0.548);
     max-width: 350px;
     width: 70%;
@@ -15,27 +15,18 @@ form {
     
 }
 
-form input[type=text],
-form input[type=password] {
+.inputNome {
     width: 100%;
     height: 40px;
     padding-left: 10px;
     margin: 10px 0;
 }
 
-form input[type=text],
-form input[type=password] {
-    width: 100%;
-    height: 50px;
-    padding-left: 10px;
-    margin: 10px 0;
-}
-
-form input[type=submit] {
-    width: 105%;
-    height: 50px;
+    .btnEnviar{
+    /* width: 105%;
+    height: 50px; */
     cursor: pointer;
-    background: rgb(#AC0019);
+    background: rgb(#AC0019)!important;
     color: rgb(22, 21, 21);
     
     padding-left: 10px;
@@ -43,5 +34,10 @@ form input[type=submit] {
     border-radius: 5px;
 }
 
-Body {
-    background-image: url(../../../html-resilia/resiliaflixcapa.jpg)}
+body {
+    background-image: url(../assets/resiliaflixcapa.jpg)}
+
+a{
+        text-decoration: none;
+        color: white;
+   }
