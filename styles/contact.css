@@ -1,5 +1,7 @@
 body{
-    background-image: url("../assets/background.jpg");
+   
+    background: url("../assets/background.jpg");
+    background-size: cover;
 }
 .title{
    color: yellow!important;
@@ -34,17 +36,16 @@ body{
     background-color: rgba(225, 225, 225, 0.1)
 }
 
-.cb2{
-    background: linear-gradient(to right bottom, rgba(225, 225, 225,0.5), rgba(0, 0, 0, 0.3))
+.nome{
+    color: gray;
 }
+
 .btn-color{
     background-color: rgba(233, 201, 16, 0.712);
 }
 
 .btn-color:hover{
     color: white;
-    background: rgb(166,172,73);
-    background: linear-gradient(0deg, rgba(166,172,73,1) 0%, rgba(247,245,45,1) 100%);  
-
+    background:black;
 
 }
