@@ -14,7 +14,7 @@ try {
                 <div class="filmeInfo">
                 <h6>Título: ${data.Search[i].Title}</h6>
                 <h6>Ano do filme: ${data.Search[i].Year}</h6>
-                <img class="imgCapa" id="imgRetorno" src="${data.Search[i].Poster}">
+                <img class="imgCapa" src="${data.Search[i].Poster}">
                 </div>
                 `);
             }
