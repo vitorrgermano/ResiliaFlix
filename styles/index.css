@@ -18,7 +18,16 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    width: 20%;
+    max-width: 20%;
     height: 400px;
     justify-content: space-around;
+}
+
+#imgRetorno {
+    float: left;
+}
+
+.imgCapa {
+    height: 250px;
+    margin: 10px;
 }

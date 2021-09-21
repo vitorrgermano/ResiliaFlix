@@ -4,32 +4,59 @@ $(document).ready(() => {
     $("#movieForm").submit((e) => {
         e.preventDefault()
         let filme = $("#filme").val()
-        let url = `http://www.omdbapi.com/?apikey=${chaveAPI}&t=${filme}`
-        let retorno = ""
-        $.ajax({
-            method: 'GET',
-            url: url,
-            success: (data) => {
-                if (data.Response == "False") {
-                    return alert(data.Error);
-                } else {
-                    console.log(data);
-                    retorno = `
-                    <img id="imgRetorno" src="${data.Poster}">
-                    <h4>Título: ${data.Title}</h4>
-                    <h4>Ano do filme: ${data.Year}</h4>
-                    <h4>País: ${data.Country}</h4>
-                    <h4>Gênero: ${data.Genre}</h4>
-                    <h4>Duração: ${data.Runtime}</h4>
-                    <h4>Rating: ${data.imdbRating}</h4>
-                    <h4>Quantidade de votos: ${data.imdbVotes}</h4>
-                    <h4>Sinopse: ${data.Plot}</h4>
-                    `;
-                    $("#retorno").html(retorno);
-                }
-            }
-        })
+        buscaInfo(filme);
+        // $.ajax({
+        //     method: 'GET',
+        //     url: `http://www.omdbapi.com/?apikey=${chaveAPI}&t=${filme}`,
+        //     success: (data) => {
+        //         if (data.Response == "False") {
+        //             return alert(data.Error);
+        //         } else {
+        //             console.log(data);
+        //             retorno = `
+        //             <img id="imgRetorno" src="${data.Poster}">
+        //             <h4>Título: ${data.Title}</h4>
+        //             <h4>Ano do filme: ${data.Year}</h4>
+        //             <h4>País: ${data.Country}</h4>
+        //             <h4>Gênero: ${data.Genre}</h4>
+        //             <h4>Duração: ${data.Runtime}</h4>
+        //             <h4>Rating: ${data.imdbRating}</h4>
+        //             <h4>Quantidade de votos: ${data.imdbVotes}</h4>
+        //             <h4>Sinopse: ${data.Plot}</h4>
+        //             `;
+        //             $("#retorno").html(retorno);
+        //         }
+        //     }
+        // })
     })
 })
 
 // VOU TENTAR IMPLEMENTAR TRY CATCH, PORÉM DESTA FORMA JÁ EVITAMOS O ERRO!
+
+function buscaInfoNome(filme) {
+    let retorno = ""
+    $.ajax({
+        method: 'GET',
+        url: `http://www.omdbapi.com/?apikey=${chaveAPI}&t=${filme}`,
+        success: (data) => {
+            if (data.Response == "False") {
+                return alert(data.Error);
+            } else {
+                console.log(data);
+                retorno = `
+            <img id="imgRetorno" src="${data.Poster}">
+            <h4>Título: ${data.Title}</h4>
+            <h4>Ano do filme: ${data.Year}</h4>
+            <h4>País: ${data.Country}</h4>
+            <h4>Gênero: ${data.Genre}</h4>
+            <h4>Duração: ${data.Runtime}</h4>
+            <h4>Rating: ${data.imdbRating}</h4>
+            <h4>Quantidade de votos: ${data.imdbVotes}</h4>
+            <h4>Sinopse: ${data.Plot}</h4>
+            `;
+                $("#retorno").html(retorno);
+            }
+        }
+    })
+}
+
