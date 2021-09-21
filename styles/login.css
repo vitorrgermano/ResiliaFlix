@@ -1,11 +1,12 @@
 .formLogin {
+    display: flex;
     background-color: rgba(204, 148, 63, 0.548);
     max-width: 350px;
     width: 70%;
     padding: 50px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    /* top: 50%; */
     transform: translate(-50%, -50%);
     border-radius: 10px;
 }
