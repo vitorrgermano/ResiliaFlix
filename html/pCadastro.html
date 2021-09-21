@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src=C:\RESILIA\PRJ_MOD2\scripts\script.js></script>
+</head>
+
+<body>
+    <section class="container">
+        <h2 id="titulo-form">Cadastre-se</h2>
+        <form method="get" action=".">
+
+            <label>Nome:
+            <input name="nome" type="text" id="nome" size="60" /></label><br />
+            <label>CPF:
+            <input name="cpf" type="text" id="cpf" size="12" /></label><br />
+            <label for="email">email:
+            <input type="email" name="email" placeholder="me@example.com" required class="campo campo-medio">
+            </label><br />
+            <label>CEP:
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+            onblur="pesquisacep(this.value);" /></label><br />
+            <label>Rua:
+            <input name="rua" type="text" id="rua" size="60" /></label><br />
+            <label>Bairro:
+            <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+            <label>Cidade:
+            <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+            <label>Estado:
+            <input name="uf" type="text" id="uf" size="2" /></label><br />
+            <label>numero:
+            <input name="numero" type="text" id="numero" size="5" /></label><br />
+            <label>complemento:
+            <input name="complemento" type="text" id="complemento" size="30" /></label><br />
+            <button id="Adicionar" class="botao bto-principal">Adicionar</button>
+        </form>
+
+    </section>
+</body>
+
+</html>
