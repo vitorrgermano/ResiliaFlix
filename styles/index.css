@@ -1,7 +1,3 @@
-#imgRetorno {
-    float: left;
-}
-
 .imgCapa {
     max-height: 300px;
     margin: 10px;
@@ -14,4 +10,24 @@ body {
 #retorno {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filmeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    max-width: 20%;
+    height: 400px;
+    justify-content: space-around;
+}
+
+#imgRetorno {
+    float: left;
+}
+
+.imgCapa {
+    height: 250px;
+    margin: 10px;
 }
