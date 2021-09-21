@@ -1,3 +1,19 @@
+*{
+    margin: 0px;
+}
+body{
+   
+    background: url("../assets/background.jpg");
+    background-size: cover;
+}
+.title{
+   color: yellow!important;
+
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    text-align: center;
+}
 
 .card{
     width: 15rem;
@@ -20,14 +36,26 @@
     background-color: rgba(225, 225, 225, 0.1)
 }
 
-.cb2{
-    background: linear-gradient(to right bottom, rgba(225, 225, 225,0.5), rgba(0, 0, 0, 0.3))
+.card-title{
+    color: white;
+}
+
+.btn-color{
+    background-color: rgba(233, 201, 16, 0.712);
 }
 
 .btn-color:hover{
     color: white;
-    background: rgb(166,172,73);
-    background: linear-gradient(0deg, rgba(166,172,73,1) 0%, rgba(247,245,45,1) 100%);  
-
+    background:black;
 
 }
+
+footer{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin-top: 100px;
+    color: white;
+  }
