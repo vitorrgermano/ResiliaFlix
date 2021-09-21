@@ -5,7 +5,7 @@ for (let j = 0; j < filme.length; j++) {
     try {
         $.ajax({
             method: 'GET',
-            url: `http://www.omdbapi.com/?apikey=${chaveAPI}&s=${filme[j]}`,
+            url: `https://www.omdbapi.com/?apikey=${chaveAPI}&s=${filme[j]}`,
             success: (data) => {
                 if (data.Response == "False") throw new Error(data.Error);
                 for (let i = 0; i < data.Search.length; i++) {
@@ -32,7 +32,7 @@ function buscaInfoID(id){
     let retorno = ""
     $.ajax({
         method: 'GET',
-        url: `http://www.omdbapi.com/?apikey=${chaveAPI}&i=${id}`,
+        url: `https://www.omdbapi.com/?apikey=${chaveAPI}&i=${id}`,
         success: (data) => {
             if (data.Response == "False") {
                 return alert(data.Error);
