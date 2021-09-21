@@ -13,9 +13,9 @@
 
 .btn-color{
     background-color: yellow;
-<<<<<<< HEAD
 }
 
-=======
+.nav, .btnBusca{
+    text-decoration: none;
+    color: black;
 }
->>>>>>> login
