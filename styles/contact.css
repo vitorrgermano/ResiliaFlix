@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
    
     background: url("../assets/background.jpg");
@@ -11,10 +12,9 @@ body{
     font-size: 40px;
     text-align: center;
 }
+=======
+>>>>>>> b07b4623535ec0f1bccaaa80732b3bf77bc95733
 
-.nav-link{
-    color: white;
-}
 .card{
     width: 15rem;
     border-radius: 1rem;
@@ -39,10 +39,13 @@ body{
 .nome{
     color: gray;
 }
+<<<<<<< HEAD
 
 .btn-color{
     background-color: rgba(233, 201, 16, 0.712);
 }
+=======
+>>>>>>> b07b4623535ec0f1bccaaa80732b3bf77bc95733
 
 .btn-color:hover{
     color: white;

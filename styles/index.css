@@ -1,0 +1,17 @@
+#imgRetorno {
+    float: left;
+}
+
+.imgCapa {
+    max-height: 300px;
+    margin: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+#retorno {
+    display: flex;
+    flex-wrap: wrap;
+}

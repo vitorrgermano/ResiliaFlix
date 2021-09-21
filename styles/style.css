@@ -1,0 +1,21 @@
+.title{
+   color: yellow!important;
+
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav-link{
+    color: white;
+}
+
+.btn-color{
+    background-color: yellow;
+<<<<<<< HEAD
+}
+
+=======
+}
+>>>>>>> login
