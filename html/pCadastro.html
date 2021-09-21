@@ -5,41 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <script src="./../scripts/cadastro.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../styles/cadastro.css">
+    <link rel="stylesheet" href="./../styles/style.css">
 </head>
 
 <body>
-    <section class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+            <div class="container-fluid">
+              <a class="navbar-brand title" href="#">RESILIAFLIX</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  text-light">­­≡</span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pCadastro.html
+                      ">Cadastra-se</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                      </li>
+                  </ul>
+                  <div class="collapse navbar-collapse d-flex justify-content-end">
+                    <form class="d-flex">
+                        <button class="btn btn-color" type="submit"><img src="../assets/glass.png" alt=""><a href="./search.html"></a>BUSCAR</button>
+                      </form>
+                  </div>
+                  
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="formulario">
         <h2 id="titulo-form">Cadastre-se</h2>
         <form method="get" action=".">
-
-            <label>Nome:
-            <input name="nome" type="text" id="nome" size="60" /></label><br />
-            <label>CPF:
-            <input name="cpf" type="text" id="cpf" size="12" /></label><br />
-            <label for="email">email:
-            <input type="email" name="email" placeholder="me@example.com" required class="campo campo-medio">
-            </label><br />
-            <label>CEP:
-            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-            onblur="pesquisacep(this.value);" /></label><br />
-            <label>Rua:
-            <input name="rua" type="text" id="rua" size="60" /></label><br />
-            <label>Bairro:
-            <input name="bairro" type="text" id="bairro" size="40" /></label><br />
-            <label>Cidade:
-            <input name="cidade" type="text" id="cidade" size="40" /></label><br />
-            <label>Estado:
-            <input name="uf" type="text" id="uf" size="2" /></label><br />
-            <label>numero:
-            <input name="numero" type="text" id="numero" size="5" /></label><br />
-            <label>complemento:
-            <input name="complemento" type="text" id="complemento" size="30" /></label><br />
-            <button id="Adicionar" class="botao bto-principal">Adicionar</button>
+            <input name="nome" placeholder="Nome Completo" type="text" class="inputNome" id="nome" size="60" />
+            <input name="cpf" placeholder="CPF" type="text" class="inputNome" id="cpf" size="12" />
+            <input type="email" name="email" placeholder="email (eu@examplo.com)" class="inputNome" required
+            class="campo campo-medio">
+            <input name="cep" placeholder="CEP" type="text" class="inputNome" id="cep" value="" size="10" maxlength="9"
+            onblur="pesquisacep(this.value);" />
+            <input name="rua" placeholder="Rua" type="text" class="inputNome" id="rua" size="60" />
+            <input name="bairro" placeholder="Bairro" type="text" class="inputNome" id="bairro" size="40" />
+            <input name="cidade" placeholder="Cidade" type="text" class="inputNome" id="cidade" size="40" />
+            <input name="uf" placeholder="UF" type="text" class="inputNome" id="uf" size="2" />
+            <input name="numero" placeholder="Nº" type="text" class="inputNome" id="numero" size="5" />
+            <input name="complemento" placeholder="Complemento" type="text" class="inputNome" id="complemento" size="30" />
+            <button id="Adicionar" class="btnEnviar">Adicionar</button>
         </form>
 
     </section>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 
 </html>
