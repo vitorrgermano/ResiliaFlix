@@ -4,7 +4,7 @@ $(document).ready(() => {
     $("#movieForm").submit((e) => {
         e.preventDefault()
         let filme = $("#filme").val()
-        let url = `https://www.omdbapi.com/?apikey=${chaveAPI}&t=${filme}`
+        let url = `https://www.omdbapi.com/?apikey=${chaveAPI}&t=${filme}&plot=full`
         let retorno = ""
         try {
             $.ajax({
