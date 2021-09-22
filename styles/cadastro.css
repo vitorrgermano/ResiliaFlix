@@ -1,13 +1,22 @@
+header {
+    display: block;
+}
+
+.container {
+    display: flex;
+   
+}
+
 .formulario {
+    
     background-color: rgba(204, 148, 63, 0.548);
     max-width: 350px;
     width: 70%;
     padding: 50px;
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-top: 80px;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa94;
 }
 
 
@@ -25,7 +34,7 @@
     background: rgb(#AC0019)!important;
     color: rgb(22, 21, 21);
     padding-left: 10px;
-    margin: 10px 0;
+    margin: 10px ;
     border-radius: 5px;
 }
 
