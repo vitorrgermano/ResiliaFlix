@@ -1,4 +1,10 @@
-.formLogin {
+.container {
+    display: flex;
+   
+}
+
+.formulario {
+    
     background-color: rgba(204, 148, 63, 0.548);
     max-width: 350px;
     width: 70%;
@@ -9,10 +15,6 @@
     box-shadow: 10px 10px 5px #aaaaaa94;
 }
 
-.h1{
-    color: rgb(#AC0019);
-    
-}
 
 .inputNome {
     width: 100%;
@@ -26,9 +28,9 @@
     height: 50px; */
     cursor: pointer;
     background: rgb(#AC0019)!important;
-    color: rgb(22, 21, 21);  
+    color: rgb(22, 21, 21);
     padding-left: 10px;
-    margin: 10px 0;
+    margin: 10px ;
     border-radius: 5px;
 }
 
