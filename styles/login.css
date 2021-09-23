@@ -1,3 +1,6 @@
+body {
+    background-image: url(../assets/resiliaflixcapa.jpg)}
+
 .formLogin {
     background-color: rgba(204, 148, 63, 0.705);
     max-width: 350px;
@@ -26,9 +29,6 @@
     margin: 10px 0;
     
 }
-
-body {
-    background-image: url(../assets/resiliaflixcapa.jpg)}
 
 a{
         text-decoration: none;
