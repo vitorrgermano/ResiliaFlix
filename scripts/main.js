@@ -40,6 +40,7 @@ function buscaInfoID(id){
                 console.log(data);
                 retorno = `
             <img id="imgRetorno" src="${data.Poster}">
+            <div class="containerInfo">
             <h4>Título: ${data.Title}</h4>
             <h4>Ano do filme: ${data.Year}</h4>
             <h4>País: ${data.Country}</h4>
@@ -48,7 +49,8 @@ function buscaInfoID(id){
             <h4>Rating: ${data.imdbRating}</h4>
             <h4>Quantidade de votos: ${data.imdbVotes}</h4>
             <h4>Sinopse: ${data.Plot}</h4>
-            <a href="./index.html"><button>Retornar a página inicial</button></a>
+            <a href="./index.html"><button class="btn-color">Retornar a página inicial</button></a>
+            </div>
             `;
                 $("#retorno").html(retorno);
             }

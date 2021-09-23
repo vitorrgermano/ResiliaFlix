@@ -37,7 +37,21 @@ body {
     height: 250px;
     margin: 10px;
 }
+.containerInfo{
+    flex-wrap: wrap;
+}
+
+.btn-color{
+    margin-top: 2%; 
+}
 
 @media (max-width: 600px) {
-    
+    .filmeInfo{
+        max-width: initial;
+    }
+
+    .imgCapa{
+        height: 450px;
+        width: 200px;
+    }
 }
