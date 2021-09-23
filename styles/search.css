@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 100%);
+    background-image: linear-gradient(360deg, #000000 0%, #434343 50%);
+    background-repeat: no-repeat;
     color: white;
 }
 h3{
