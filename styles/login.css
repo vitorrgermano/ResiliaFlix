@@ -3,19 +3,24 @@ body {
 }
 
 .formLogin {
-    background-color: rgba(204, 148, 63, 0.548);
+    background-color: rgba(204, 148, 63, 0.705);
     max-width: 350px;
     width: 70%;
     padding: 50px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 120px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #aaaaaa94;
+    box-shadow: 10px 10px 5px #79734194;
 }
 
-.h1{
-    color: rgb(#AC0019);
-    
+.b{
+    width: 50%;
+        height: 30px;
+        cursor: pointer;
+        background: #ffff00;
+        color: rgb(90, 86, 86);
+        border: 0;
+        border-radius: 5px;
 }
 
 .inputNome {
@@ -23,6 +28,7 @@ body {
     height: 40px;
     padding-left: 10px;
     margin: 10px 0;
+    
 }
 
 .btnEnviar{
