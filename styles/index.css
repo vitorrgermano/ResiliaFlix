@@ -1,7 +1,4 @@
-.imgCapa {
-    max-height: 300px;
-    margin: 10px;
-}
+
 
 body {
     text-align: center;
@@ -9,6 +6,12 @@ body {
     background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
     color: white;
 }
+.carousel-inner > .carousel-item > img {
+    width: 700px;
+    height: 500px; 
+    object-fit: cover;
+    object-position: 0 50%;
+  }
 
 #retorno {
     display: flex;
@@ -16,6 +19,10 @@ body {
     justify-content: space-around;
     margin: 8%;
    
+}
+.imgCapa {
+    max-height: 300px;
+    margin: 10px;
 }
 
 .filmeInfo {
