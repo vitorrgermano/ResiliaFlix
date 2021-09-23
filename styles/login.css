@@ -1,3 +1,7 @@
+body {
+    background-image: url(../assets/resiliaflixcapa.jpg)
+}
+
 .formLogin {
     background-color: rgba(204, 148, 63, 0.548);
     max-width: 350px;
@@ -21,7 +25,7 @@
     margin: 10px 0;
 }
 
-    .btnEnviar{
+.btnEnviar{
     /* width: 105%;
     height: 50px; */
     cursor: pointer;
@@ -32,10 +36,12 @@
     border-radius: 5px;
 }
 
-body {
-    background-image: url(../assets/resiliaflixcapa.jpg)}
 
 a{
         text-decoration: none;
         color: white;
    }
+
+footer{
+    position: absolute;
+}
