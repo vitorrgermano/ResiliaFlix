@@ -11,6 +11,10 @@
     color: white;
 }
 
+button a {
+    text-decoration: none;
+    color: black;
+}
 .btn-color{
     background-color: yellow;
 }
