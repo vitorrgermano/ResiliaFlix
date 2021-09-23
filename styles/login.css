@@ -1,5 +1,10 @@
 body {
+<<<<<<< HEAD
     background-image: url(../assets/resiliaflixcapa.jpg)}
+=======
+    background-image: url(../assets/resiliaflixcapa.jpg)
+}
+>>>>>>> estilização
 
 .formLogin {
     background-color: rgba(204, 148, 63, 0.705);
@@ -30,7 +35,30 @@ body {
     
 }
 
+<<<<<<< HEAD
 a{
         text-decoration: none;
         color: rgb(90, 86, 86);
    }
+=======
+.btnEnviar{
+    /* width: 105%;
+    height: 50px; */
+    cursor: pointer;
+    background: rgb(#AC0019)!important;
+    color: rgb(22, 21, 21);  
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+
+a{
+        text-decoration: none;
+        color: white;
+   }
+
+footer{
+    position: absolute;
+}
+>>>>>>> estilização
